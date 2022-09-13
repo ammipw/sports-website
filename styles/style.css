@@ -9,8 +9,36 @@ html, body {
 }
 
 .playerCard {
+    padding: 7px;
+    margin: 5px;
     width: 400px;
     display: inline-block;
     background: lightblue;
     text-align: center;
+}
+
+.playerCard img {
+    width: 100%;
+    height: 500px;
+}
+
+nav li {
+    background-color: orange;
+    height: 100px;
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+
+   
+}
+
+nav ul {
+    background-color: lightblue;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    text-decoration: none;
 }
